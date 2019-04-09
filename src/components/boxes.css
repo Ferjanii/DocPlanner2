@@ -1,0 +1,63 @@
+.main-section-select{
+    display:flex;
+    width: 1000px;
+  }
+  .main-section-select h1{
+    font-size:26px;
+    color:white; 
+    font-weight: lighter;
+    max-width: 400px;
+    padding-left: 30px;
+  }
+  .main-section-select h2{
+    font-size:16px;
+    color:black;
+    font-weight: lighter;
+    color: hsla(0,0%,100%,.7);
+    padding-left: 30px;
+  }
+  .box-patient{
+    flex:1;
+    background-color: #00ccb1;
+    border-radius:20px;
+    margin-left:20px;
+    position: relative;
+    overflow: hidden;
+    height: 385px;
+  }
+  .box-img{
+    height:250px;
+    width: 391px;
+    position: absolute; 
+    left:200px   
+  }
+  .main-box-patient{
+    display: flex;
+  }
+  .list-box{
+    height: 40px;
+    border-radius: 5px;
+    margin-left: 30px;
+    width: 35%;
+    border: white;
+    font-size: 12px;
+    font-weight: bold;
+    padding-left: 14px;
+  }
+  .list:hover{
+    background-color:rgba(238, 238, 238, 1);
+  }
+  .box-doctor{
+    flex:1;
+    background-color:#3d83df;
+    border-radius:20px;
+    margin-left:20px;
+    position: relative;
+    overflow: hidden;
+
+    height: 385px;
+  }
+  .main-section{
+    display: flex;
+    justify-content: center;
+  }

@@ -1,0 +1,24 @@
+.company{
+    display: flex;
+    justify-content: center;
+  }
+  .list-company{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    flex-wrap: wrap;
+    width: 650px;
+  }
+  .color-list{
+    fill:rgba(195, 195, 195, 1)
+  }
+  .lists-company:hover{
+    fill:hsla(172, 100%, 40%, 1);
+  }
+  .company h1{
+    line-height:35px;
+    font-size:28px; 
+    font-weight: lighter;
+    max-width: 250px;
+    margin-top: 60px;
+  }

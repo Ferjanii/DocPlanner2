@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+  }
+  body,html{
+    font-family:sans-serif;
+  }
+  .header-head{
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color:hsla(0,0%,100%,.98);
+    box-shadow: 0 -2px 10px 0 rgba(0,0,0,.15);
+    height:70px;
+  }
+  .header-section{
+    display:flex;
+    justify-content:space-around;
+  }
+  .header-img{
+    background: url("https://www.docplanner.com/img/logo-default-group-en.svg?v=1");
+    background-repeat:no-repeat;
+    background-size:contain;
+    height:100px;
+    width: 290px;
+    margin-top:10px;
+  }
+   .header-information{
+    display:flex;
+    list-style: none;
+    margin-top:15px;
+    width: 250px;
+    justify-content: space-between;
+  }
+  .link-color h1{
+    text-decoration:none;
+    color:#00b39b;
+    font-weight: lighter;
+    font-size: 36px;
+  }
+  .link-color {
+    text-decoration:none;
+    color:#00b39b;
+    font-size: 15px;
+  }
+  .link-header{
+    text-decoration:none;
+    color:#ababab;
+    font-size: 15px;
+  }
+  .link-header-h:hover{
+    color:#00b39b;
+  }

@@ -1,0 +1,13 @@
+hr{
+    border: 0.5px solid #eef2f2;
+  }
+  .footer-section{
+    text-align: center;
+    margin-top: 40px;
+    color: #ababab;
+    font-size: 12px;
+  }
+  .footer-section a{
+    text-decoration: none;
+    color: #3d83df;
+  }
